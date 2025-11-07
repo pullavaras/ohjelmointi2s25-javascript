@@ -1,3 +1,2 @@
-const nimi = prompt("Kerro nimesi: ")
-
-document.querySelector("#target").innerHTML = nimi;
+const name = prompt("Kerro nimesi:")
+document.querySelector('#target').innerHTML = "Hauska tavata, " + name + "  :-)";
