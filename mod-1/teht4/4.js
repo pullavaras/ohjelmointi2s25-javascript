@@ -9,16 +9,16 @@ function sorting_hat (min, max) {
 
 const student_house = sorting_hat()
 if (student_house == 1) {
-  document.querySelector("#target").innerHTML = student + ", you are a Gryffindor."
+  document.querySelector("#target").innerHTML = student + ", you are a Gryffindor.";
 }
 else if (student_house == 2) {
-  document.querySelector("#target").innerHTML = student + ", you are a Slytherin."
+  document.querySelector("#target").innerHTML = student + ", you are a Slytherin.";
 }
 else if (student_house == 3) {
-  document.querySelector("#target").innerHTML = student + ", you are a Hufflepuff."
+  document.querySelector("#target").innerHTML = student + ", you are a Hufflepuff.";
 }
 else {
-  document.querySelector("#target").innerHTML = student + ", you are a Ravenclaw."
+  document.querySelector("#target").innerHTML = student + ", you are a Ravenclaw.";
 }
 
 //

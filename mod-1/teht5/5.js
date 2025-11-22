@@ -1,0 +1,16 @@
+'use strict';
+
+const year = Number(prompt("Enter a year and the program will tell you whether it's leap year or not: "));
+
+if (year % 400 == 0) {
+  document.querySelector("#target").innerHTML = "The year " + year + " is a leap year.";
+}
+else if (year % 100 == 0) {
+  document.querySelector("#target").innerHTML = "The year " + year + " is not a leap year.";
+}
+else if (year % 4 == 0) {
+  document.querySelector("#target").innerHTML = "The year " + year + " is a leap year.";
+}
+else {
+  document.querySelector("#target").innerHTML = "The year " + year + " is not a leap year.";
+}
