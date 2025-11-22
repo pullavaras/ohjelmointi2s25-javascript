@@ -20,3 +20,5 @@ else if (student_house == 3) {
 else {
   document.querySelector("#target").innerHTML = student + ", you are a Ravenclaw."
 }
+
+//
