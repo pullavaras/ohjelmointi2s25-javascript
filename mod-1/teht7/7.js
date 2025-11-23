@@ -2,11 +2,13 @@
 
 const dice_rolls = Number(prompt('How many dice rolls?'));
 
-
-function throw_dice(min, max) {
-  const minCeiled = Math.ceil(1);
-  const maxFloored = Math.floor(6);
-  return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled);
+function throw_dice() {
+    return Math.floor(Math.random()*6) + 1;
 }
 
-const dice = throw_dice()
+let sum = 0
+for (let i = 0; i < dice_rolls; i++) {
+    sum += throw_dice()
+}
+
+document.querySelector("#target").innerHTML = "The sum of the dice rolls is " + sum;
