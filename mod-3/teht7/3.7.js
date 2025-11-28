@@ -10,3 +10,4 @@ trigger.addEventListener('mouseover', function () {
 trigger.addEventListener('mouseout', function () {
     pic.src = "picA.jpg";
 });
+
